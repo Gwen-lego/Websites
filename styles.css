@@ -1,0 +1,14 @@
+* {
+    border: 1px solid black;
+}
+nav{
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+.media {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
