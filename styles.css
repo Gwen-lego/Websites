@@ -82,6 +82,9 @@ h1 {
     text-align: center;
     align-items: center;
 }
+.icons {
+    width: 25px;
+}
 h2 {
     color: var(--dark-green);
     font-family: var(--fraunces);
