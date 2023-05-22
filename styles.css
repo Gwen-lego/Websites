@@ -78,11 +78,15 @@ h1 {
 .media {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 58px 27px 36px 36px;
     background: white;
     text-align: center;
-    align-items: center;
+    align-items: baseline;
 }
 .icons {
+    width: 25px;
+}
+.social-media-icon {
     width: 25px;
 }
 h2 {
