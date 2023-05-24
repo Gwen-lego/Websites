@@ -149,3 +149,23 @@ h2 {
     font-family: var(--lato);
     font-weight: 300;
 }
+
+/* ABOUT DIV */
+
+#about-me {
+    background: #CAB4AF;
+}
+.about-me-child {
+    width: 940px;
+    margin: auto;
+
+}
+#about-me button {
+    margin: auto;
+    margin-top: 30px;
+}
+.social-media {
+    padding: 15px;
+    text-align: center;
+
+}
