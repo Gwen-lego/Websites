@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid rgb(127, 64, 64); */
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -13,7 +13,9 @@
 :target {
     text-decoration-color: black;
 }
-
+a {
+    text-decoration: none;
+}
 
 body {
     background: #E1C1BC;
@@ -127,6 +129,7 @@ main {
 }
 
 
+
 /* main content photo title and profile description on the side */
 
 .main-picture-container {
@@ -172,11 +175,17 @@ h1 {
     border: none;
     margin-top: 40px;
 }
+.chat-window {
+    display: flex;
+    justify-content: center;    
+}
 .chat-button {
+    cursor: pointer;
     background: white;
     border: 2px solid #8B6755;
+    color: #906D5C;
     border-radius: 25px;
-    padding: 10px 30px;
+    padding: 8px 35px;
     margin-top: 25px;
     font-weight: 200;
     font-size: 17px;
@@ -266,4 +275,74 @@ h2 {
 .social-media {
     padding: 15px;
     text-align: center;
+}
+
+/* Services */
+#services {
+    background: #E7DFDE;
+    margin: auto;
+    min-height: 100vh;
+    padding-bottom: 15px;
+}
+h4 {
+    text-align: center;
+    font-size: 56px;
+    font-family: var(--fraunces);
+    font-weight: 700;
+    padding: 20px 0px 50px 0px;
+    
+}
+
+.services-3columns {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.services-picture {
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.services-3columns p {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.align-left{
+    text-align: left;
+}
+.line-height {
+    line-height: 2em;
+}
+
+/* footer */
+
+
+footer {
+    color: #FFFFFF;
+    font-size: 29px;
+    width: 815px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fraunces);
+    font-weight: 300;
+    margin: auto;
+    line-height: 1.4em;
+}
+.feedback {
+    color: #F6ECEB;
+    font-size: 100px;
+    padding-top: 50px;
+}
+.owner-review {
+    font-size: 18px;
+    margin: 40px;
+    line-height: 1.1em;
 }

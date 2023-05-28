@@ -26,7 +26,7 @@
       <nav>
         <div class="nav-menu shadow">
           <a class="link home" id="Home" href="index.html#Home">Home</a>
-          <a class="link about" href="#about-me">About</a>
+          <a class="link about" href="#about-me-container">About</a>
           <a class="link services" href="#services">Services</a>
           <a class="link portofolio" href="portofolio.html#Portofolio">Portofolio</a>
           <a class="link contact" href="contact.html#Contact">Contact</a>
@@ -149,10 +149,12 @@
           <p>As a creative copywriter, my mission is to engage your clients with compelling content that truly resonates. Whether crafting punchy social media posts or engaging content for websites, I always keep your brand's tone and target audience in mind. I have a knack for creating effective copy for websites, social media and landing pages, I can help your message shine through and leave a lasting impact.</p>
           <br />
           <p>I pride myself on being personable, reliable, solution-driven, and bursting with creativity. My diverse employment and life experiences have equipped me with the adaptability and versatility to take on any content challenge with ease. So, whether you need help bringing your brand to life or simply struggle to find the right words, I'm your go-to girl. Let's work together to make your vision a reality!</p>
-          <button class="chat-button">
-            Let's chat
-            <img class="right-arrow" src="images/right-arrow.png" alt="right arrow">
-          </button>
+          <a class="chat-window" href="">
+            <button class="chat-button">
+              Let's chat
+              <img class="right-arrow" src="images/right-arrow.png" alt="right arrow">
+            </button>
+          </a> 
           <div class="social-media">
             <img class="social-media-icon" src="images/insta.png" alt="instagram logo">
             <img class="social-media-icon" src="images/in.png" alt="linkedin logo">
@@ -168,13 +170,22 @@
 
       <section id="services">
         <h4>Services</h4>
+
         <div class="services-3columns">
-          <div class="copywriting">
-            <img class="picture-notepad" src="images/Notepad.webp" alt="notepad">
+            <img class="picture-notepad services-picture" src="images/Notepad.webp" alt="notepad">
+            <img class="picture-typing1 services-picture" src="images/Typing.webp" alt="hand typing laptop">
+            <img class="picture-typing2 services-picture" src="images/Working.webp" alt="hand typing laptop">
+
             <h5>
               Copywriting & Social Media Management
             </h5>
-            <p>
+            <h5>
+              I write...
+            </h5>
+            <h5>
+              Proofreading
+            </h5>
+            <p class="align-left">
               Crafting copy that truly speaks to your target audience is my specialty. When creating content for your business, I put myself in the shoes of potential clients to create engaging, persuasive copy that resonates and captures their attention.
               <br />
               My goal is to help you turn prospects into loyal clients through the power of effective writing. Whether it's crafting compelling website copy, engaging social media posts, or attention-grabbing advertising, I'm here to help you achieve your business goals.
@@ -182,29 +193,17 @@
               My writing style is characterised by upbeat humour and a conversational voice that enlightens your audience without coming across as sales-y. I take a subtle approach, playing with language to make a lasting impact on your audience. I pride myself on my ability to relate to your market, using my writing to inform, encourage, and empathise with your clients.
               <br />
               So if you're looking for a copywriter who can create persuasive, relatable content that resonates with your audience and drives results, look no further. I'm here to help you take your business to the next level.
-            </p>
-          </div>
-          <div class="iwrite">
-            <img class="picture-typing" src="images/Typing.webp" alt="hand typing on laptop">
-            <h5>
-              I write...
-            </h5>
-            <p>
+            </p>  
+            <p class="line-height">
               Social Media Posts
               <br />
               Websites
-            <<br />
+            <br />
               Emails
               <br />
               Landing pages
             </p>
-          </div>
-          <div class="proofreading">
-            <img class="picture-typing2" src="images/Working.webp" alt="hand typing laptop">
-            <h5>
-              Proofreading
-            </h5>
-            <p>
+            <p class="line-height">
               I offer editing & proofreading services on various documents.
               <br />
               I can support you with:
@@ -219,10 +218,12 @@
             </p>
           </div>
         </div>
-        <button class="chat-button">
-          Let's chat
-          <img class="right-arrow" src="images/" alt="right arrow">
-        </button>
+        <a class="chat-window" href="">
+          <button class="chat-button">
+            Let's chat
+            <img class="right-arrow" src="images/right-arrow.png" alt="right arrow">
+          </button>
+        </a>
       </section>
 
       <!--  feedback -->
