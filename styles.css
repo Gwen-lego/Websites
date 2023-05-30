@@ -35,7 +35,11 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: black;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 
 }
 .link-github{
@@ -175,22 +179,26 @@ h1 {
     border: none;
     margin-top: 40px;
 }
-.chat-window {
+.chat-button-container {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
+
 .chat-button {
+    margin: auto;
     cursor: pointer;
     background: white;
     border: 2px solid #8B6755;
-    color: #906D5C;
     border-radius: 25px;
-    padding: 8px 35px;
+    padding: 9px 35px;
     margin-top: 25px;
     font-weight: 200;
     font-size: 17px;
     display: flex;
     justify-content: center;
+}
+button:hover .right-arrow {
+    width: 35px;
 }
 button img {
     filter: invert(41%) sepia(25%) saturate(518%) hue-rotate(335deg) brightness(98%) contrast(92%);
